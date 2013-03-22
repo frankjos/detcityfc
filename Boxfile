@@ -15,3 +15,8 @@ web1:
     - iconv
     - curl
     - soap
+  after_build:
+  - "mv pagoda/local.xml app/etc/local.xml"
+db1:
+  name: detcityfc-db
+  type: mysql
