@@ -1,0 +1,50 @@
+<ul id="nav" class="hidden-phone hidden-tablet">  
+       <li class="home active"><a href="http://detcityfc.loc:8888/?___SID=U">Home</a></li>
+  
+    <li class="level0 nav-1 level-top first">
+<a href="http://detcityfc.loc:8888/news.html?___SID=U" class="level-top">
+<span>News</span>
+</a>
+</li><li class="level0 nav-2 level-top">
+<a href="http://detcityfc.loc:8888/schedule.html?___SID=U" class="level-top">
+<span>Schedule</span>
+</a>
+</li><li class="level0 nav-3 level-top">
+<a href="http://detcityfc.loc:8888/team.html?___SID=U" class="level-top">
+<span>Team</span>
+</a>
+</li><li class="level0 nav-4 level-top">
+<a href="http://detcityfc.loc:8888/tickets.html?___SID=U" class="level-top">
+<span>Tickets</span>
+</a>
+</li><li class="level0 nav-5 level-top parent">
+<a href="http://detcityfc.loc:8888/shop.html?___SID=U" class="level-top">
+<span>Shop</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-5-1 first">
+<a href="http://detcityfc.loc:8888/shop/clothing.html?___SID=U">
+<span>Clothing</span>
+</a>
+</li><li class="level1 nav-5-2">
+<a href="http://detcityfc.loc:8888/shop/outerwear.html?___SID=U">
+<span>Outerwear</span>
+</a>
+</li><li class="level1 nav-5-3">
+<a href="http://detcityfc.loc:8888/shop/accessories.html?___SID=U">
+<span>Accessories</span>
+</a>
+</li><li class="level1 nav-5-4 last">
+<a href="http://detcityfc.loc:8888/shop/clearance.html?___SID=U">
+<span>Clearance</span>
+</a>
+</li>
+</ul>
+</li><li class="level0 nav-6 level-top last">
+<a href="http://detcityfc.loc:8888/contact.html?___SID=U" class="level-top">
+<span>Contact</span>
+</a>
+</li>	
+</ul>
+
+

@@ -1,0 +1,17 @@
+web1: 
+  name: detcityfc 
+  shared_writable_dirs:
+    - media
+    - var
+  php_version: 5.3.8
+  php_extensions:
+    - pdo_mysql
+    - mysql
+    - simplexml
+    - mcrypt
+    - hash
+    - gd
+    - dom
+    - iconv
+    - curl
+    - soap

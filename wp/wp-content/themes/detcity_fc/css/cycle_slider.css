@@ -1,0 +1,60 @@
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ * jQuery Custom Cycle Slider
+ * @Author : femkhan
+ * @authorurl : http://www.aivahthemes.com
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.sys_slider             { position:relative; width:1020px; height:100%; margin:0 auto; color:#000; }
+.sys_slider p           { margin:0 0 15px 0; padding:0; font-size:12px; color:#000;  }
+.sys_slider h1          { font-size:30px; font-weight:bold; line-height:34px; }
+.sys_slider h3,
+.sys_slider h1          { margin-top:20px; padding-bottom:0px; color:#000; }
+
+.sys_slider .halfslide  { width:1020px; margin:0 auto; }
+.sys_slider .descleft   { float:left; width:420px; height:360px; margin-left:10px; padding:0 30px 0 0; overflow:hidden; }
+.sys_slider .descright  { float:left; width:400px; height:360px; margin-left:10px; padding:0 20px 0 20px; overflow:hidden; }
+
+.sys_slider .half 		{ float:left; margin:0; padding:0; }
+.sys_slider .full       { display:block; width:1020px; height:360px; margin:0 auto; padding:0; }
+
+.sys_slider .holder     { display:block; padding:0px; }
+
+.sys_slider .slideshow  { display:none; position:relative; margin:0 auto; z-index:1; }
+
+.sys_slider img.image   { 
+	background:#fff;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.6);
+	   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.6);
+	        box-shadow: 0 0 3px rgba(0,0,0,0.6);
+	}
+
+/*-=-=-=-=-=-=-=-=-=-=-=
+ * Slider Navigation
+-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.cs-prev, 
+.cs-next    { display:none }
+
+#nav {
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	display:none; 
+	margin:15px 5px 0 0;
+	z-index:2;
+	}
+
+#nav a { 
+	display:block; 
+	float:left; 
+	margin:0 5px 0 0; 
+	width:10px; 
+	height:10px; 
+	background:transparent url(../images/slider_navs.png) no-repeat 0 0; 
+	text-indent:-9999px;
+	outline:none; 
+	cursor:default;
+	}
+#nav a.activeSlide {
+	background:transparent url(../images/slider_navs.png) -30px 0 no-repeat;
+	}

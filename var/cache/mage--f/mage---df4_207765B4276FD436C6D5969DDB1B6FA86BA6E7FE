@@ -1,0 +1,69 @@
+
+<div class="block block-leftnav">
+<div class="block-title">
+    <strong><span>Shop by Category</span></strong> 
+</div>
+<div class="block-content">
+		<ul id="left-nav">
+												
+										<li class="category "> 
+						<a href="http://detcityfc.loc:8888/news.html?___SID=U" >
+							News						</a>
+											</li>
+																					
+										<li class="category "> 
+						<a href="http://detcityfc.loc:8888/schedule.html?___SID=U" >
+							Schedule						</a>
+											</li>
+																					
+										<li class="category "> 
+						<a href="http://detcityfc.loc:8888/team.html?___SID=U" >
+							Team						</a>
+											</li>
+																					
+										<li class="category "> 
+						<a href="http://detcityfc.loc:8888/tickets.html?___SID=U" >
+							Tickets						</a>
+											</li>
+																					
+										<li class="category "> 
+						<a href="http://detcityfc.loc:8888/shop.html?___SID=U" >
+							Shop						</a>
+						<span class="arrow" lang="3"></span>					</li>
+										<li>
+						<ul class="subcategory_3 subcategory" style="display:none;">
+																															<li class="category cate " lang="17">
+									<a href="http://detcityfc.loc:8888/shop/clothing.html?___SID=U" >
+										Clothing									</a>
+																	</li>
+																																							<li class="category cate " lang="16">
+									<a href="http://detcityfc.loc:8888/shop/outerwear.html?___SID=U" >
+										Outerwear									</a>
+																	</li>
+																																							<li class="category cate " lang="18">
+									<a href="http://detcityfc.loc:8888/shop/accessories.html?___SID=U" >
+										Accessories									</a>
+																	</li>
+																																							<li class="category cate " lang="13">
+									<a href="http://detcityfc.loc:8888/shop/clearance.html?___SID=U" >
+										Clearance									</a>
+																	</li>
+																																							<li class="category cate " lang="14">
+									<a href="http://detcityfc.loc:8888/shop/mens.html?___SID=U" >
+										Mens									</a>
+																	</li>
+																																							<li class="category cate " lang="15">
+									<a href="http://detcityfc.loc:8888/shop/womens.html?___SID=U" >
+										Womens									</a>
+																	</li>
+																					</ul>
+					</li>
+																					
+										<li class="category "> 
+						<a href="http://detcityfc.loc:8888/contact.html?___SID=U" >
+							Contact						</a>
+											</li>
+														</ul>
+</div>
+</div>
+ 

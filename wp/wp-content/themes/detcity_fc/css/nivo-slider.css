@@ -1,0 +1,113 @@
+/*
+ * jQuery Nivo Slider v1.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2010, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+#slider {
+	position:relative;
+	min-width:980px;
+	margin:0px auto;
+	}
+#slider img {
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#slider a {
+	border:0;
+}
+ 
+.nivoSlider {
+
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.nivoSlider a.nivo-imageLink {
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	border:0;	
+}
+
+.nivo-slice {
+	display:block;
+	position:absolute;
+	height:100%;
+}
+
+.nivo-caption {
+	position:absolute;
+	left:30px;
+	top:30px;
+	z-index:79;	
+	width:250px;
+	padding:10px 20px;
+	color:#fff;
+	margin:0 auto;
+	background:url(../images/opac70.png) 0 0 scroll repeat;	
+}
+.nivo-caption p {
+	margin:0;
+	padding:0px;
+	font-size:14px;
+}
+
+.nivo-directionNav a {
+	position:absolute;
+	top:41%;
+	z-index:99;
+	cursor:pointer;
+	
+}
+.nivo-prevNav {
+	display:block;
+	left:0px;	
+	width:34px;
+	height:70px;
+	text-indent:-99999px;
+}
+.nivo-nextNav {
+	display:block;
+	right:0px;
+	width:34px;
+	height:70px;
+	text-indent:-99999px;	
+}
+
+.nivo-controlNav { 
+	position:absolute;
+	right:20px;
+	bottom:15px;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-controlNav a {
+	display:block;
+	float: left; 	
+	height: 10px; 
+	width: 10px;
+	margin-right:4px;	
+	color: #ff8800;  	
+	text-indent: -9999px; 
+	border:0;
+	background:url(../images/buttons.png) 0 0 scroll no-repeat;	
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	color: #565656;  
+	background:url(../images/buttons.png) -10px 0 scroll no-repeat;	
+}

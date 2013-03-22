@@ -1,0 +1,3 @@
+"sku"	"_store"	"_attribute_set"	"_type"	"_category"	"_root_category"	"_product_websites"	"color"	"cost"	"description"	"gender"	"msrp"	"name"	"price"	"short_description"	"size"	"status"	"tax_class_id"	"visibility"	"weight"	"qty"
+"test-hood-ctid-mn-mr-sm-11"		"Clothing"	"simple"	"Shop"	"Default Category"	"base"		25	"This is the test description."	"Men's"	60	"City Till I Die Zip-Up Hoodie - TEST"	50	"Short description here."	"Small"	1	2	4	1.5	1
+"men-hdy-cty-mar-sm-12"		"Clothing"	"simple"	"Shop"	"Default Category"	"base"		25	"Men's City Till I Die Hoodie"	"Men's"	60	"City Till I Die Zip-Up Hoodie"	50	"Hoodie"	"Small"	1	2	4	1.5	1

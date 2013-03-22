@@ -1,0 +1,489 @@
+.glowbg		{ width:auto; background:rgba(0, 0, 0, 0.05); margin:0 auto 0 auto; padding:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+.glowborder	{ background-color:#FFFFFF; border:1px solid #ddd; border-color:rgba(0,0,0,0.2); padding:20px; margin:0 auto;  -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; overflow:hidden;}
+
+/*=== Clearfix
+=======================================================*/
+
+.clear { clear:both; }
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+
+/*=== ATP Meta Options Styles
+=======================================================*/
+
+.smalltext                     { font:italic normal 11px/16px Georgia, Serif; color:#888;}
+
+.atp_meta_options              { overflow:hidden; display:block; }
+.atp_options_box               { font-size:12px; width:auto; background:rgba(0, 0, 0, 0.05); margin:0 auto 5px auto; padding:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+.atp_inputs                    { display:block; padding:0px;  }
+.atp_description label         { font-weight:bold; font-size:12px; line-height:20px; }
+.atp_description p             { margin:0 0 5px 0 !important; font:italic normal 11px/16px Georgia, Serif; color:#888; }
+
+.atp_inputs .secondary_select  { display:none; margin-top:10px; padding-top:10px; border-top:1px solid #eee;  }
+.atp_inputs .tertiary_select   { display:none; margin-top:10px; padding-top:10px; border-top:1px solid #eee;  }
+.atp_inputs .rlabel            { display:block; margin:0 10px 5px 0; }
+.atp_inputs select             { padding:3px 10px 3px 3px }	
+
+.atp_inputs .secondary_select .on_off { display:block; }	
+	
+
+/*=== ATP Shortcode Send To Editor Wrap
+=======================================================*/
+
+.primary_select select         { min-width:200px; width:auto important; }
+.primary_select select option  { padding:4px !important; 	}
+
+.atp_short_desc                { font-style:italic; font-size:11px;}
+table.shortcodestab select     { margin-bottom:5px; }
+table.shortcodestab th         { font-size:11px; text-align:right; padding-right:10px; width:150px; }
+
+input#sendtoeditor { margin-left:170px;}
+
+/*=== ATP COLOR PICKER
+=======================================================*/
+
+.colorpicker {
+	width: 356px;
+	height: 176px;
+	overflow: hidden;
+	position: absolute;
+	background: url(../images/colorpicker/colorpicker_background.png);
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+	}
+.colorpicker_color {
+	width: 150px;
+	height: 150px;
+	left: 14px;
+	top: 13px;
+	position: absolute;
+	background: #f00;
+	overflow: hidden;
+	cursor: crosshair;
+	}
+.colorpicker_color div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background: url(../images/colorpicker/colorpicker_overlay.png);
+	}
+.colorpicker_color div div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 11px;
+	height: 11px;
+	overflow: hidden;
+	background: url(../images/colorpicker/colorpicker_select.gif);
+	margin: -5px 0 0 -5px;
+	}
+.colorpicker_hue {
+	position: absolute;
+	top: 13px;
+	left: 171px;
+	width: 35px;
+	height: 150px;
+	cursor: n-resize;
+	}
+.colorpicker_hue div {
+	position: absolute;
+	width: 35px;
+	height: 9px;
+	overflow: hidden;
+	background: url(../images/colorpicker/colorpicker_indic.gif) left top;
+	margin: -4px 0 0 0;
+	left: 0px;
+	}
+.colorpicker_new_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 213px;
+	top: 13px;
+	background: #f00;
+	}
+.colorpicker_current_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 283px;
+	top: 13px;
+	background: #f00;
+	}
+.colorpicker input {
+	background-color: transparent;
+	border: 1px solid transparent;
+	position: absolute;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #898989;
+	top: 4px;
+	right: 11px;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	height: 12px;
+	}
+.colorpicker_hex {
+	position: absolute;
+	width: 72px;
+	height: 22px;
+	background: url(../images/colorpicker/colorpicker_hex.png) top;
+	left: 212px;
+	top: 142px;
+	}
+.colorpicker_hex input {
+	right: 6px;
+	}
+.colorpicker_field {
+	height: 22px;
+	width: 62px;
+	background-position: top;
+	position: absolute;
+	}
+.colorpicker_field span {
+	position: absolute;
+	width: 12px;
+	height: 22px;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	cursor: n-resize;
+	}
+.colorpicker_rgb_r {
+	background-image: url(../images/colorpicker/colorpicker_rgb_r.png);
+	top: 52px;
+	left: 212px;
+	}
+.colorpicker_rgb_g {
+	background-image: url(../images/colorpicker/colorpicker_rgb_g.png);
+	top: 82px;
+	left: 212px;
+	}
+.colorpicker_rgb_b {
+	background-image: url(../images/colorpicker/colorpicker_rgb_b.png);
+	top: 112px;
+	left: 212px;
+	}
+.colorpicker_hsb_h {
+	background-image: url(../images/colorpicker/colorpicker_hsb_h.png);
+	top: 52px;
+	left: 282px;
+	}
+.colorpicker_hsb_s {
+	background-image: url(../images/colorpicker/colorpicker_hsb_s.png);
+	top: 82px;
+	left: 282px;
+	}
+.colorpicker_hsb_b {
+	background-image: url(../images/colorpicker/colorpicker_hsb_b.png);
+	top: 112px;
+	left: 282px;
+	}
+.colorpicker_submit {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background: url(../images/colorpicker/colorpicker_submit.png) top;
+	left: 322px;
+	top: 142px;
+	overflow: hidden;
+	}
+.colorpicker_focus                    { background-position: center; }
+.colorpicker_hex.colorpicker_focus    { background-position: bottom; }
+.colorpicker_submit.colorpicker_focus { background-position: bottom; }
+.colorpicker_slider                   { background-position: bottom; }
+
+.colorSelector {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    background: url(../images/colorpicker/select.png);
+    float:left;
+	}
+.colorSelector div {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 21px;
+    height: 19px;
+    background: url(../images/colorpicker/select.png) center;
+	}
+
+/*=== ATP IPHONE CHECKBOX STYLE 
+=======================================================*/
+
+.iPhoneCheckContainer {
+	position: relative;
+	height: 27px;
+	cursor: pointer;
+	overflow: hidden; 
+	}
+
+.iPhoneCheckContainer input {
+	position: absolute;
+	top: 5px;
+	left: 30px;
+	opacity: 0;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+	}
+
+.iPhoneCheckContainer label {
+	white-space: nowrap;
+	font-size: 12px;
+	line-height: 17px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+	cursor: pointer;
+	display: block;
+	height: 27px;
+	position: absolute;
+	width: auto;
+	top: 0;
+	padding-top: 6px;
+	overflow: hidden;
+	}
+
+.iPhoneCheckContainer, .iPhoneCheckContainer label {
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none; 
+	}
+
+.iPhoneCheckDisabled {
+	opacity: 0.5;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); 
+	}
+
+label.iPhoneCheckLabelOn {
+	color: #536e2f;
+	background: url('../images/iphone/on.png') no-repeat;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+	left: 2px;
+	padding-top: 6px;
+	}
+
+label.iPhoneCheckLabelOn span {
+	padding-left: 12px; 
+	}
+
+label.iPhoneCheckLabelOff {
+	color: #7c3a2e;
+	background: url('../images/iphone/off.png') no-repeat right 0;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+	text-align: right;
+	right: 2px;
+	}
+
+label.iPhoneCheckLabelOff span {
+	padding-right: 8px;
+	}
+
+.iPhoneCheckHandle {
+	display: block;
+	height: 27px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	background: url('../images/iphone/slider_left.png') no-repeat;
+	padding-left: 3px;
+	}
+
+.iPhoneCheckHandleRight {
+	height: 100%;
+	width: 100%;
+	padding-right: 3px;
+	background: url('../images/iphone/slider_right.png') no-repeat right 0; 
+	}
+
+.iPhoneCheckHandleCenter {
+	height: 100%;
+	width: 100%;
+	background: url('../images/iphone/slider_center.png'); 
+	}
+
+Sysgooglemap_panel label { width:100%; }
+select.sys_social_file_icon  option { padding-left:20px !important; background-repeat:no-repeat !important;}
+
+/* --- 44. FANCY BUTTONS
+________________________________________*/
+
+a.btn        { text-decoration:none; }
+.btn, 
+.btn span    { display: inline-block;	color:#fff; }
+.btn {
+	position:relative;
+	zoom:1; /* zoom and *display = ie7 hack for display:inline-block */
+	overflow: visible; 
+	outline: none;
+	line-height:1em;
+	white-space: nowrap;
+	cursor: pointer;
+	border: 1px solid #999;/* IE Hack*/
+	border: rgba(0, 0, 0, .1) 1px solid;/* Safari 4+, Chrome, FF3.5+ */
+	border-bottom:rgba(0, 0, 0, .2) 1px solid;
+
+	/* FF3.5+ */
+	background: -moz-linear-gradient(
+		center top,
+		rgba(255, 255, 255, .1) 0%,
+		rgba(0, 0, 0, .0) 100%
+	);
+
+	/* Safari 4+, Chrome */
+	background: -webkit-gradient(
+		linear,
+		center bottom,
+		center top,
+		from(rgba(0, 0, 0, .1)),
+		to(rgba(255, 255, 255, .1))
+	);
+
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000'); /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19FFFFFF', EndColorStr='#19000000')"; /* IE8 */
+	-moz-user-select: none;
+	-webkit-user-select:none;
+	-khtml-user-select: none;
+	user-select: none;
+	
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	}
+
+button::-moz-focus-inner   { border: none; /* overrides extra padding on sides FF3.5 */ }
+button.btn              { padding:0px; margin:0; }
+.btn.full, 
+.btn.full span          { display: block; }
+.btn:hover, 
+.btn.hover {
+		/* FF3.5 */
+		background: -moz-linear-gradient(
+			center top,
+			rgba(255, 255, 255, .2) 0%,
+			rgba(255, 255, 255, .1) 100%
+		);
+		/* Safari4+, Chrome */
+		background: -webkit-gradient(
+			linear,
+			center bottom,
+			center top,
+			from(rgba(255, 255, 255, .1)),
+			to(rgba(255, 255, 255, .2))
+		);
+		
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#33FFFFFF', EndColorStr='#19FFFFFF'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#33FFFFFF', EndColorStr='#19FFFFFF')"; /* IE8 */
+			color:#fff;
+		}
+
+.btn:active, 
+.btn.active 				{
+		top:1px;
+		/* FF3.5 */
+		background: -moz-linear-gradient(
+			center top,
+			rgba(0, 0, 0, .1) 0%,
+			rgba(255, 255, 255, .1) 100%
+		);
+		/* Safari4+, Chrome */
+		background: -webkit-gradient(
+			linear,
+			center bottom,
+			center top,
+			from(rgba(255, 255, 255, .1)),
+			to(rgba(0, 0, 0, .1))
+		);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#19000000', EndColorStr='#19FFFFFF'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#19000000', EndColorStr='#19FFFFFF')"; /* IE8 */
+	}
+
+
+.btn span {
+	position: relative;
+	padding:0.6em 1.3em;
+	border-top:1px solid rgba(255, 255, 255, 0.25);
+	line-height:1em;
+	text-decoration:none;
+	text-align:center;
+	white-space: nowrap;
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.25); 
+	}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	/* Safari, Google Chrome margin fix */
+	button.btn span {
+		margin-top: -1px;
+		margin-left:-2px;
+		margin-right:-2px;
+	}
+}
+.btn.small span 	{ font-size:10px; text-transform:uppercase; font-family:Tahoma, Arial, Verdana, sans-serif; }
+.btn.medium span { font-size:13px; }
+.btn.large span 	{ font-size:18px; }
+
+/*=== FANCY BUTTONS COLOR SCHEME
+=======================================================*/
+
+.btn.gray         { background-color: #666666; } .btn.gray:hover     { background-color: #666666; }
+.btn.brown        { background-color: #A52A2A; } .btn.brown:hover    { background-color: #A52A2A; }
+.btn.cyan         { background-color: #00FFFF; } .btn.cyan:hover     { background-color: #00FFFF; }
+.btn.orange       { background-color: #ff5c00; } .btn.orange:hover   { background-color: #ff5c00; }
+.btn.red          { background-color: #861D23; } .btn.red:hover      { background-color: #861D23; }
+.btn.magenta      { background-color: #A9014B; } .btn.magenta:hover  { background-color: #A9014B; }
+.btn.yellow       { background-color: #ffb515; } .btn.yellow:hover   { background-color: #ffb515; }
+.btn.blue         { background-color: #00ADEE; } .btn.blue:hover     { background-color: #00ADEE; }
+.btn.pink         { background-color: #e22092; } .btn.pink:hover     { background-color: #e22092; }
+.btn.green        { background-color: #91bd09; } .btn.green:hover    { background-color: #91bd09; }
+.btn.black        { background-color: #333333; } .btn.black:hover    { background-color: #333333; }
+.btn.white        { background-color: #FFFFFF; }
+.btn.white span   { color: #666666; }
+
+
+p.cancelled,      
+p.unconfirmed,    
+p.confirmed       {
+	padding:8px; 
+	margin-bottom:0px; 
+	width:80px; 
+	font-weight:bold;
+	text-transform:Capitalize;
+	text-align:center;
+	-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	        border-radius:5px;
+	}
+
+p.cancelled       { color: #b55351; border: 1px solid #ecbeb6; background: #f7e6e4; }
+p.unconfirmed     { color: #e5c296; border: 1px solid #e6d8a7; background: #f7f4e3; }
+p.confirmed       { color: #70a77d; border: 1px solid #c8ddb6; background: #eaf4e2; }
+

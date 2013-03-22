@@ -1,0 +1,76 @@
+/* Circular Content Carousel Style */
+
+.ca-container     { position:relative; margin:0px auto; width:980px; height:400px; }
+.ca-wrapper       { width:100%; height:100%; position:relative; }
+.ca-item          { position:relative; float:left; width:326px; height:100%; }
+.ca-more          { position: absolute; bottom: 10px; right:0px; padding:4px 10px; text-align:center; color: #fff; font-size:13px; font-style:italic; background: #000;}
+.ca-more:hover    { color: #fff; background: #1C1C1C; }
+.ca-close         { position:absolute; top:0px; right:5px; width:20px; height:20px; background:#ffca3c url('../images/close-on.png') center center no-repeat;  text-indent:-9000px; outline:none; }
+.ca-close:hover   { background:#000000 url('../images/close-hover.png') center center no-repeat; }
+.ca-item-main     {
+	position:absolute; 
+	top:0px; 
+	left:5px; 
+	right:5px; 
+	bottom:0px; 
+	background:#ffffff; 
+	overflow:hidden; 
+	-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	        border-radius:5px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	   -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	        box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	}
+
+.ca-item-main .item_title      { padding:10px 30px 30px 30px; }
+.ca-item-main .item_title p    { font-size:11px; color:#000; }
+.ca-item-main .item_title h3   { margin:10px 0 10px 0; font-size:24px; font-weight:bold; color:#000; text-align:center; }
+.ca-icon                       { width:233px; height:189px; position:relative; margin:0 auto; background:transparent url(../images/animal1.png) no-repeat center center; }
+
+span.price {
+	position:absolute; 
+	bottom:162px; 
+	padding:20px 10px; 
+	font-size:38px;	 
+	font-weight:bold; 
+	background-color:#ffcc00; 
+	color:#000000;
+	}
+
+.ca-item h4{
+	position:relative;
+	margin:10px;
+	padding-left:10px;
+	font-family: "Georgia","Times New Roman",serif;
+	font-style:italic;
+	font-size:12px;
+	line-height:24px;
+	text-align:left;
+	border-left:10px solid #b0ccc6;
+}
+.ca-item h4 span           { text-indent:40px; display:block; }
+.ca-item h4  span.ca-quote { position:absolute; top:20px; left:0px; color:#f4eee3; font-size:100px; text-indent:0px; }
+
+/* width:0px; = expands to width of the wrapper minus 1 element */ 
+.ca-content-wrapper        { position:absolute; top:0px; right:15px; z-index:10000;	width:0px; overflow:hidden; text-align:left; }
+.ca-content{
+	width:550px;
+	height:360px;		
+	overflow:hidden;
+	padding:20px 30px;	
+	background:#fff;	
+		-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	        border-radius:5px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	   -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	        box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	}
+
+.ca-content-text           { font-size: 14px; font-style: italic; font-family: "Georgia","Times New Roman",serif; margin:10px 20px; padding:10px 20px; line-height:24px; }
+.ca-content-text p         { padding-bottom:5px; }
+.ca-content h2             { margin:25px 0px 0px 0px; font-size:26px; padding-bottom:5px; color:#000; }
+.ca-nav span               { width:17px; height:38px; background:transparent url(../images/arrows.png) no-repeat top left; position:absolute; top:50%; margin-top:-19px; left:-40px; text-indent:-9000px; opacity:0.7; cursor:pointer; z-index:100; }
+.ca-nav span.ca-nav-next   { background-position:top right; left:auto; right:-40px; }
+.ca-nav span:hover         { opacity:1.0; }
