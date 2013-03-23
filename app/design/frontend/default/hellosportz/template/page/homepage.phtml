@@ -56,18 +56,21 @@
 		<div class="page container">
 			<div class="main-container col2-right-layout">
 				<div class="main row">	
-					<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('home-hor-row')->toHtml() ?>
+					<div class="span12">
+						<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('home-hor-row')->toHtml() ?>
+					</div>
 					<div class="col-main span9">
 						<?php echo $this->getChildHtml('global_messages') ?>
 						<?php echo $this->getChildHtml('content') ?>
 					</div>
 					<div class="col-right sidebar span3">
 						<div class="sidebar-inner">
-							<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('home-collection')->toHtml() ?>
+							<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('standings')->toHtml() ?>
 							<div class="menu-iphone"><?php echo $this->getChildHtml('right') ?>	</div>
 						</div>
 					</div>
 					<div class="clear"></div>
+					<h3 class="sponsors">Sponsors</h3>
 					<div id="brands" class="container es-carousel-wrapper">
 						<div class="es-carousel">
 							<ul>	
