@@ -281,3 +281,5 @@ Stack trace:
 2013-03-20T21:15:42+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'c-69-245-75-166.hsd1.mi.comcast.net' (using password: YES)
 2013-03-20T21:19:52+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'c-69-245-75-166.hsd1.mi.comcast.net' (using password: YES)
 2013-03-20T21:27:08+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'c-69-245-75-166.hsd1.mi.comcast.net' (using password: YES)
+2013-03-23T12:01:16+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
+2013-03-23T12:10:41+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
