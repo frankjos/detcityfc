@@ -305,3 +305,7 @@ Stack trace:
 2013-03-23T12:59:45+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
 2013-03-23T13:03:03+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
 2013-03-23T13:05:09+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
+2013-03-23T13:11:06+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
+2013-03-23T13:11:51+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
+2013-03-23T13:17:29+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
+2013-03-23T13:22:11+00:00 DEBUG (7): SQLSTATE[28000] [1045] Access denied for user 'detcityfccom1'@'ip-64-134-164-1.public.wayport.net' (using password: YES)
